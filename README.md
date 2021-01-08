@@ -10,7 +10,7 @@
 <body>
         <h2>Login User With Session and Cookie</h2>
         <img src="img/cookie.JPG" alt""> <br> 
-    <h4>After login, and then inspect -> application -> choose cookie</h4>
+    <h4>After login to inspect -> application -> choose cookie</h4>
         <img src="img/cookie 2.JPG" alt="">
     </div>
 
