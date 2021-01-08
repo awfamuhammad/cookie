@@ -44,7 +44,9 @@ if (isset($_POST["login"])) {
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="login.css">
+    <link rel="stylesheet" type="text/css" href="styles/login.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;1,600&display=swap" rel="stylesheet">
     <title>Hello, world!</title>
 </head>
 
@@ -52,20 +54,23 @@ if (isset($_POST["login"])) {
 
     <div class="container">
         <form action="" method="post">
-            <div class="mb-3">
-                <label for="username" class="form-label">username</label>
-                <input type="text" class="form-control" id="username" aria-describedby="usernameHelp" name="username">
-                <div id="usernameHelp" class="form-text">We'll never share your username with anyone else.</div>
+            <div class="login">
+                <h2>Masuk</h2>
+                <div class="mb-3">
+                    <label for="username" class="form-label">username</label>
+                    <input type="text" class="form-control" id="username" aria-describedby="usernameHelp" name="username">
+                    <div id="usernameHelp" class="form-text form-input">contoh: example@tokopedia.com</div>
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label">password</label>
+                    <input type="password" class="form-control form-input" id="password" name="password">
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="remember" name="remember">
+                    <label class="form-check-label" for="remember">ingat password</label>
+                </div>
+                <button type="submit" class="btn" name="login">Masuk</button>
             </div>
-            <div class="mb-3">
-                <label for="password" class="form-label">password</label>
-                <input type="password" class="form-control" id="password" name="password">
-            </div>
-            <div class="mb-3 form-check">
-                <input type="checkbox" class="form-check-input" id="remember" name="remember">
-                <label class="form-check-label" for="remember">remember</label>
-            </div>
-            <button type="submit" class="btn btn-primary" name="login">Submit</button>
         </form>
     </div>
 
