@@ -9,8 +9,8 @@
 
 <body>
         <h2>Login User With Session and Cookie</h2>
-        <img src="img/cookie.jpg"> <br>
-        <img src="img/cookie2.jpg">
+        <img src="img/cookie.jpg" alt""> <br>
+        <img src="img/cookie2.jpg" alt="">
     </div>
 
 </body>
