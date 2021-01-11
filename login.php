@@ -11,7 +11,7 @@ if (isset($_COOKIE['login'])) {
 
 // cek session
 if (isset($_SESSION["login"])) {
-    header("Location: admin.php");
+    header("Location: tokopedia.php");
     exit;
 }
 
@@ -26,7 +26,7 @@ if (isset($_POST["login"])) {
             setcookie('login', 'true', time() + 60);
         }
 
-        header("Location: admin.php");
+        header("Location: tokopedia.php");
         exit;
     }
 }

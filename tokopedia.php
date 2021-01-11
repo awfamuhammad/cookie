@@ -1,3 +1,13 @@
+<?php
+
+session_start();
+
+if (!isset($_SESSION["login"])) {
+    header("Location: tokopedia.php");
+    exit;
+}
+?>
+
 <!doctype html>
 <html lang="en">
 
@@ -14,7 +24,7 @@
 
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
 
-    <title>Store</title>
+    <title>Tokopedia</title>
 </head>
 
 <body>

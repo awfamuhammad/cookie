@@ -85,6 +85,8 @@
 .aside .aside-list li {
     list-style: none;
     margin-left: 0px;
+    padding-left: 20px;
+    margin-left: 10px;
 }
 
 .aside .aside-list li a {
