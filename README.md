@@ -12,7 +12,8 @@
         <img src="img/cookie.JPG" alt""> <br> 
     <h4>After login to inspect -> application -> choose cookie</h4>
         <img src="img/cookie 2.JPG" alt="">
-    </div>
+    <h4>User Interface Tokopedia clone</h4>
+    <img src="img/capture.jpg">
 
 </body>
 
